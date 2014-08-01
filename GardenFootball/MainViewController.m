@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "SoundManager.h"
 
 @interface MainViewController ()
 
@@ -27,6 +28,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    [SoundManager sharedManager].allowsBackgroundMusic = YES;
+    [[SoundManager sharedManager] prepareToPlay];
+    
+    [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
+    
 }
 
 - (void)didReceiveMemoryWarning

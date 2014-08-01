@@ -13,6 +13,7 @@
 		EB1F2C75198B1F4F00929EDD /* launch_default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1F2C73198B1F4F00929EDD /* launch_default.png */; };
 		EB1F2C76198B1F4F00929EDD /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1F2C74198B1F4F00929EDD /* launch.png */; };
 		EB1F2C7A198B217200929EDD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1F2C79198B217200929EDD /* MainViewController.m */; };
+		EB26250C198BA02100DF230F /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB26250B198BA02100DF230F /* SoundManager.m */; };
 		EBB1D8E3198A594800CDD6E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1D8E2198A594800CDD6E5 /* UIKit.framework */; };
 		EBB1D8E5198A594800CDD6E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1D8E4198A594800CDD6E5 /* Foundation.framework */; };
 		EBB1D8E7198A594800CDD6E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1D8E6198A594800CDD6E5 /* CoreGraphics.framework */; };
@@ -27,6 +28,12 @@
 		EBB1D90F198A594800CDD6E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1D8E4198A594800CDD6E5 /* Foundation.framework */; };
 		EBB1D917198A594800CDD6E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBB1D915198A594800CDD6E5 /* InfoPlist.strings */; };
 		EBB1D91A198A594900CDD6E5 /* GardenFootballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB1D919198A594900CDD6E5 /* GardenFootballTests.m */; };
+		EBFF1188198C4EA800E91DBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFF1187198C4EA800E91DBE /* AVFoundation.framework */; };
+		EBFF118F198C4F9500E91DBE /* ball-bounce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118A198C4F9500E91DBE /* ball-bounce.mp3 */; };
+		EBFF1190198C4F9500E91DBE /* sound1.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118B198C4F9500E91DBE /* sound1.caf */; };
+		EBFF1191198C4F9500E91DBE /* sound2.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118C198C4F9500E91DBE /* sound2.caf */; };
+		EBFF1192198C4F9500E91DBE /* track1.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118D198C4F9500E91DBE /* track1.caf */; };
+		EBFF1193198C4F9500E91DBE /* track2.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118E198C4F9500E91DBE /* track2.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,8 @@
 		EB1F2C74198B1F4F00929EDD /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		EB1F2C78198B217200929EDD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		EB1F2C79198B217200929EDD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EB26250A198BA02100DF230F /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		EB26250B198BA02100DF230F /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		EBB1D8DF198A594800CDD6E5 /* GardenFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB1D8E2198A594800CDD6E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EBB1D8E4198A594800CDD6E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,6 +77,12 @@
 		EBB1D916198A594800CDD6E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBB1D918198A594800CDD6E5 /* GardenFootballTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GardenFootballTests.h; sourceTree = "<group>"; };
 		EBB1D919198A594900CDD6E5 /* GardenFootballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GardenFootballTests.m; sourceTree = "<group>"; };
+		EBFF1187198C4EA800E91DBE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EBFF118A198C4F9500E91DBE /* ball-bounce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ball-bounce.mp3"; path = "../../../../../../../../Users/phamhoang/Desktop/ball-bounce.mp3"; sourceTree = "<group>"; };
+		EBFF118B198C4F9500E91DBE /* sound1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound1.caf; path = ../../../../../../../../Users/phamhoang/Desktop/sound1.caf; sourceTree = "<group>"; };
+		EBFF118C198C4F9500E91DBE /* sound2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound2.caf; path = ../../../../../../../../Users/phamhoang/Desktop/sound2.caf; sourceTree = "<group>"; };
+		EBFF118D198C4F9500E91DBE /* track1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = track1.caf; path = ../../../../../../../../Users/phamhoang/Desktop/track1.caf; sourceTree = "<group>"; };
+		EBFF118E198C4F9500E91DBE /* track2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = track2.caf; path = ../../../../../../../../Users/phamhoang/Desktop/track2.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFF1188198C4EA800E91DBE /* AVFoundation.framework in Frameworks */,
 				EBB1D8E3198A594800CDD6E5 /* UIKit.framework in Frameworks */,
 				EBB1D8E5198A594800CDD6E5 /* Foundation.framework in Frameworks */,
 				EBB1D8E7198A594800CDD6E5 /* CoreGraphics.framework in Frameworks */,
@@ -117,17 +133,10 @@
 			children = (
 				EB1F2C6E198B1C8A00929EDD /* HelperUtils.h */,
 				EB1F2C6F198B1C8A00929EDD /* HelperUtils.mm */,
+				EB26250A198BA02100DF230F /* SoundManager.h */,
+				EB26250B198BA02100DF230F /* SoundManager.m */,
 			);
 			name = CommonUtils;
-			sourceTree = "<group>";
-		};
-		EB1F2C72198B1E9400929EDD /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				EB1F2C73198B1F4F00929EDD /* launch_default.png */,
-				EB1F2C74198B1F4F00929EDD /* launch.png */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 		EB1F2C77198B215300929EDD /* MainScreen */ = {
@@ -137,6 +146,15 @@
 				EB1F2C79198B217200929EDD /* MainViewController.m */,
 			);
 			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		EB262509198B9ED400DF230F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EB1F2C73198B1F4F00929EDD /* launch_default.png */,
+				EB1F2C74198B1F4F00929EDD /* launch.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		EBB1D8D6198A594800CDD6E5 = {
@@ -161,6 +179,7 @@
 		EBB1D8E1198A594800CDD6E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EBFF1187198C4EA800E91DBE /* AVFoundation.framework */,
 				EBB1D8E2198A594800CDD6E5 /* UIKit.framework */,
 				EBB1D8E4198A594800CDD6E5 /* Foundation.framework */,
 				EBB1D8E6198A594800CDD6E5 /* CoreGraphics.framework */,
@@ -172,7 +191,6 @@
 		EBB1D8E8198A594800CDD6E5 /* GardenFootball */ = {
 			isa = PBXGroup;
 			children = (
-				EB1F2C72198B1E9400929EDD /* Images */,
 				EB1F2C69198B1B6300929EDD /* CommonUtils */,
 				EB1F2C59198B0DB800929EDD /* UIScreen */,
 				EBB1D8F1198A594800CDD6E5 /* AppDelegate.h */,
@@ -186,6 +204,8 @@
 		EBB1D8E9198A594800CDD6E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EBFF1189198C4F6900E91DBE /* Sound */,
+				EB262509198B9ED400DF230F /* Images */,
 				EBB1D8EA198A594800CDD6E5 /* GardenFootball-Info.plist */,
 				EBB1D8EB198A594800CDD6E5 /* InfoPlist.strings */,
 				EBB1D8EE198A594800CDD6E5 /* main.m */,
@@ -214,6 +234,18 @@
 				EBB1D915198A594800CDD6E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBFF1189198C4F6900E91DBE /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				EBFF118A198C4F9500E91DBE /* ball-bounce.mp3 */,
+				EBFF118B198C4F9500E91DBE /* sound1.caf */,
+				EBFF118C198C4F9500E91DBE /* sound2.caf */,
+				EBFF118D198C4F9500E91DBE /* track1.caf */,
+				EBFF118E198C4F9500E91DBE /* track2.caf */,
+			);
+			name = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,11 +320,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB1D8ED198A594800CDD6E5 /* InfoPlist.strings in Resources */,
+				EBFF118F198C4F9500E91DBE /* ball-bounce.mp3 in Resources */,
 				EBB1D8F5198A594800CDD6E5 /* Default.png in Resources */,
 				EBB1D8F7198A594800CDD6E5 /* Default@2x.png in Resources */,
+				EBFF1190198C4F9500E91DBE /* sound1.caf in Resources */,
+				EBFF1193198C4F9500E91DBE /* track2.caf in Resources */,
+				EBFF1191198C4F9500E91DBE /* sound2.caf in Resources */,
 				EBB1D8F9198A594800CDD6E5 /* Default-568h@2x.png in Resources */,
 				EB1F2C61198B0EA700929EDD /* GardenStoryboard.storyboard in Resources */,
 				EB1F2C75198B1F4F00929EDD /* launch_default.png in Resources */,
+				EBFF1192198C4F9500E91DBE /* track1.caf in Resources */,
 				EB1F2C76198B1F4F00929EDD /* launch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +370,7 @@
 				EB1F2C5F198B0E3700929EDD /* LauchViewController.m in Sources */,
 				EB1F2C70198B1C8A00929EDD /* HelperUtils.mm in Sources */,
 				EB1F2C7A198B217200929EDD /* MainViewController.m in Sources */,
+				EB26250C198BA02100DF230F /* SoundManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
