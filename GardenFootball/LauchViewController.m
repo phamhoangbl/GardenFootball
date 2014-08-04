@@ -10,6 +10,8 @@
 #import "HelperUtils.h"
 #import "MainViewController.h"
 
+#import "SoundManager.h"
+
 @interface LauchViewController ()
 
 @end
@@ -39,7 +41,7 @@
     launchImageView.image = image;
     //Run service get current location
     //end
-	[self performSelector:@selector(LaunchScreen) withObject:nil afterDelay:3];
+	[self performSelector:@selector(LaunchScreen) withObject:nil afterDelay:0];
     
 }
 
@@ -51,8 +53,21 @@
 
 -(void)LaunchScreen
 {
-    MainViewController* noDataConnectivity = [[UIStoryboard storyboardWithName:@"GardenStoryboard"                                                                                     bundle:nil] instantiateViewControllerWithIdentifier:@"MainViewControllerId"];
-    [self.navigationController pushViewController:noDataConnectivity animated:YES];
+    MainViewController* mainViewController = [[UIStoryboard storyboardWithName:@"GardenStoryboard"                                                                                     bundle:nil] instantiateViewControllerWithIdentifier:@"MainViewControllerId"];
+    
+    (void) [mainViewController initWithTitle:@"KYArcTab"
+                                    tabBarSize:(CGSize){kKYTabBarWdith, kKYTabBarHeight}
+                         tabBarBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:kKYITabBarBackground]]
+                                      itemSize:(CGSize){kKYTabBarItemWidth, kKYTabBarItemHeight}
+                                         arrow:[UIImage imageNamed:kKYITabBarArrow]];
+    
+    //sound of plash
+    [SoundManager sharedManager].allowsBackgroundMusic = YES;
+    [[SoundManager sharedManager] prepareToPlay];
+    
+    [[SoundManager sharedManager] playSound:@"sound2" looping:NO];
+    
+    [self.navigationController pushViewController:mainViewController animated:YES];
 }
 
 @end

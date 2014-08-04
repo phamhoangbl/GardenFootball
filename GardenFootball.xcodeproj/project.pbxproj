@@ -28,6 +28,24 @@
 		EBB1D90F198A594800CDD6E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1D8E4198A594800CDD6E5 /* Foundation.framework */; };
 		EBB1D917198A594800CDD6E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBB1D915198A594800CDD6E5 /* InfoPlist.strings */; };
 		EBB1D91A198A594900CDD6E5 /* GardenFootballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB1D919198A594900CDD6E5 /* GardenFootballTests.m */; };
+		EBF37020199004750037555A /* KYIArcTabGestureHelp.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF37012199004750037555A /* KYIArcTabGestureHelp.png */; };
+		EBF37021199004750037555A /* KYIArcTabGestureHelp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF37013199004750037555A /* KYIArcTabGestureHelp@2x.png */; };
+		EBF37022199004750037555A /* KYITabBarArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF37014199004750037555A /* KYITabBarArrow.png */; };
+		EBF37023199004750037555A /* KYITabBarArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF37015199004750037555A /* KYITabBarArrow@2x.png */; };
+		EBF37024199004750037555A /* KYITabBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF37016199004750037555A /* KYITabBarBackground.png */; };
+		EBF37025199004750037555A /* KYITabBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF37017199004750037555A /* KYITabBarBackground@2x.png */; };
+		EBF37026199004750037555A /* KYTabBarItem01.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF37018199004750037555A /* KYTabBarItem01.png */; };
+		EBF37027199004750037555A /* KYTabBarItem01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF37019199004750037555A /* KYTabBarItem01@2x.png */; };
+		EBF37028199004750037555A /* KYTabBarItem02.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF3701A199004750037555A /* KYTabBarItem02.png */; };
+		EBF37029199004750037555A /* KYTabBarItem02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF3701B199004750037555A /* KYTabBarItem02@2x.png */; };
+		EBF3702A199004750037555A /* KYTabBarItem03.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF3701C199004750037555A /* KYTabBarItem03.png */; };
+		EBF3702B199004750037555A /* KYTabBarItem03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF3701D199004750037555A /* KYTabBarItem03@2x.png */; };
+		EBF3702C199004750037555A /* KYTabBarItem04.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF3701E199004750037555A /* KYTabBarItem04.png */; };
+		EBF3702D199004750037555A /* KYTabBarItem04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF3701F199004750037555A /* KYTabBarItem04@2x.png */; };
+		EBF37035199004D10037555A /* KYArcTab.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF37032199004D10037555A /* KYArcTab.m */; };
+		EBF37036199004D10037555A /* KYArcTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF37034199004D10037555A /* KYArcTabViewController.m */; };
+		EBF37038199005B20037555A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF37037199005B20037555A /* QuartzCore.framework */; };
+		EBF3703B199007F70037555A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3703A199007F70037555A /* Constants.m */; };
 		EBFF1188198C4EA800E91DBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFF1187198C4EA800E91DBE /* AVFoundation.framework */; };
 		EBFF118F198C4F9500E91DBE /* ball-bounce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118A198C4F9500E91DBE /* ball-bounce.mp3 */; };
 		EBFF1190198C4F9500E91DBE /* sound1.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118B198C4F9500E91DBE /* sound1.caf */; };
@@ -77,6 +95,27 @@
 		EBB1D916198A594800CDD6E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBB1D918198A594800CDD6E5 /* GardenFootballTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GardenFootballTests.h; sourceTree = "<group>"; };
 		EBB1D919198A594900CDD6E5 /* GardenFootballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GardenFootballTests.m; sourceTree = "<group>"; };
+		EBF37012199004750037555A /* KYIArcTabGestureHelp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KYIArcTabGestureHelp.png; sourceTree = "<group>"; };
+		EBF37013199004750037555A /* KYIArcTabGestureHelp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KYIArcTabGestureHelp@2x.png"; sourceTree = "<group>"; };
+		EBF37014199004750037555A /* KYITabBarArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KYITabBarArrow.png; sourceTree = "<group>"; };
+		EBF37015199004750037555A /* KYITabBarArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KYITabBarArrow@2x.png"; sourceTree = "<group>"; };
+		EBF37016199004750037555A /* KYITabBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KYITabBarBackground.png; sourceTree = "<group>"; };
+		EBF37017199004750037555A /* KYITabBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KYITabBarBackground@2x.png"; sourceTree = "<group>"; };
+		EBF37018199004750037555A /* KYTabBarItem01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KYTabBarItem01.png; sourceTree = "<group>"; };
+		EBF37019199004750037555A /* KYTabBarItem01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KYTabBarItem01@2x.png"; sourceTree = "<group>"; };
+		EBF3701A199004750037555A /* KYTabBarItem02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KYTabBarItem02.png; sourceTree = "<group>"; };
+		EBF3701B199004750037555A /* KYTabBarItem02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KYTabBarItem02@2x.png"; sourceTree = "<group>"; };
+		EBF3701C199004750037555A /* KYTabBarItem03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KYTabBarItem03.png; sourceTree = "<group>"; };
+		EBF3701D199004750037555A /* KYTabBarItem03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KYTabBarItem03@2x.png"; sourceTree = "<group>"; };
+		EBF3701E199004750037555A /* KYTabBarItem04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KYTabBarItem04.png; sourceTree = "<group>"; };
+		EBF3701F199004750037555A /* KYTabBarItem04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KYTabBarItem04@2x.png"; sourceTree = "<group>"; };
+		EBF37031199004D10037555A /* KYArcTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYArcTab.h; sourceTree = "<group>"; };
+		EBF37032199004D10037555A /* KYArcTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYArcTab.m; sourceTree = "<group>"; };
+		EBF37033199004D10037555A /* KYArcTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYArcTabViewController.h; sourceTree = "<group>"; };
+		EBF37034199004D10037555A /* KYArcTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYArcTabViewController.m; sourceTree = "<group>"; };
+		EBF37037199005B20037555A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EBF37039199007F70037555A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../../../../../../../../Users/phamhoang/Desktop/Constants.h; sourceTree = "<group>"; };
+		EBF3703A199007F70037555A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = ../../../../../../../../Users/phamhoang/Desktop/Constants.m; sourceTree = "<group>"; };
 		EBFF1187198C4EA800E91DBE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EBFF118A198C4F9500E91DBE /* ball-bounce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ball-bounce.mp3"; path = "../../../../../../../../Users/phamhoang/Desktop/ball-bounce.mp3"; sourceTree = "<group>"; };
 		EBFF118B198C4F9500E91DBE /* sound1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound1.caf; path = ../../../../../../../../Users/phamhoang/Desktop/sound1.caf; sourceTree = "<group>"; };
@@ -90,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF37038199005B20037555A /* QuartzCore.framework in Frameworks */,
 				EBFF1188198C4EA800E91DBE /* AVFoundation.framework in Frameworks */,
 				EBB1D8E3198A594800CDD6E5 /* UIKit.framework in Frameworks */,
 				EBB1D8E5198A594800CDD6E5 /* Foundation.framework in Frameworks */,
@@ -131,6 +171,8 @@
 		EB1F2C69198B1B6300929EDD /* CommonUtils */ = {
 			isa = PBXGroup;
 			children = (
+				EBF37039199007F70037555A /* Constants.h */,
+				EBF3703A199007F70037555A /* Constants.m */,
 				EB1F2C6E198B1C8A00929EDD /* HelperUtils.h */,
 				EB1F2C6F198B1C8A00929EDD /* HelperUtils.mm */,
 				EB26250A198BA02100DF230F /* SoundManager.h */,
@@ -151,6 +193,7 @@
 		EB262509198B9ED400DF230F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EBF37011199004750037555A /* MenuKYArc */,
 				EB1F2C73198B1F4F00929EDD /* launch_default.png */,
 				EB1F2C74198B1F4F00929EDD /* launch.png */,
 			);
@@ -179,6 +222,7 @@
 		EBB1D8E1198A594800CDD6E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EBF37037199005B20037555A /* QuartzCore.framework */,
 				EBFF1187198C4EA800E91DBE /* AVFoundation.framework */,
 				EBB1D8E2198A594800CDD6E5 /* UIKit.framework */,
 				EBB1D8E4198A594800CDD6E5 /* Foundation.framework */,
@@ -191,6 +235,7 @@
 		EBB1D8E8198A594800CDD6E5 /* GardenFootball */ = {
 			isa = PBXGroup;
 			children = (
+				EBF37030199004D10037555A /* KYArcTab */,
 				EB1F2C69198B1B6300929EDD /* CommonUtils */,
 				EB1F2C59198B0DB800929EDD /* UIScreen */,
 				EBB1D8F1198A594800CDD6E5 /* AppDelegate.h */,
@@ -234,6 +279,38 @@
 				EBB1D915198A594800CDD6E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF37011199004750037555A /* MenuKYArc */ = {
+			isa = PBXGroup;
+			children = (
+				EBF37012199004750037555A /* KYIArcTabGestureHelp.png */,
+				EBF37013199004750037555A /* KYIArcTabGestureHelp@2x.png */,
+				EBF37014199004750037555A /* KYITabBarArrow.png */,
+				EBF37015199004750037555A /* KYITabBarArrow@2x.png */,
+				EBF37016199004750037555A /* KYITabBarBackground.png */,
+				EBF37017199004750037555A /* KYITabBarBackground@2x.png */,
+				EBF37018199004750037555A /* KYTabBarItem01.png */,
+				EBF37019199004750037555A /* KYTabBarItem01@2x.png */,
+				EBF3701A199004750037555A /* KYTabBarItem02.png */,
+				EBF3701B199004750037555A /* KYTabBarItem02@2x.png */,
+				EBF3701C199004750037555A /* KYTabBarItem03.png */,
+				EBF3701D199004750037555A /* KYTabBarItem03@2x.png */,
+				EBF3701E199004750037555A /* KYTabBarItem04.png */,
+				EBF3701F199004750037555A /* KYTabBarItem04@2x.png */,
+			);
+			path = MenuKYArc;
+			sourceTree = "<group>";
+		};
+		EBF37030199004D10037555A /* KYArcTab */ = {
+			isa = PBXGroup;
+			children = (
+				EBF37031199004D10037555A /* KYArcTab.h */,
+				EBF37032199004D10037555A /* KYArcTab.m */,
+				EBF37033199004D10037555A /* KYArcTabViewController.h */,
+				EBF37034199004D10037555A /* KYArcTabViewController.m */,
+			);
+			path = KYArcTab;
 			sourceTree = "<group>";
 		};
 		EBFF1189198C4F6900E91DBE /* Sound */ = {
@@ -293,6 +370,7 @@
 		EBB1D8D7198A594800CDD6E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Pham Hoang";
 			};
@@ -319,17 +397,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF37021199004750037555A /* KYIArcTabGestureHelp@2x.png in Resources */,
 				EBB1D8ED198A594800CDD6E5 /* InfoPlist.strings in Resources */,
+				EBF37028199004750037555A /* KYTabBarItem02.png in Resources */,
+				EBF3702C199004750037555A /* KYTabBarItem04.png in Resources */,
+				EBF3702A199004750037555A /* KYTabBarItem03.png in Resources */,
+				EBF3702D199004750037555A /* KYTabBarItem04@2x.png in Resources */,
+				EBF37025199004750037555A /* KYITabBarBackground@2x.png in Resources */,
 				EBFF118F198C4F9500E91DBE /* ball-bounce.mp3 in Resources */,
 				EBB1D8F5198A594800CDD6E5 /* Default.png in Resources */,
+				EBF37022199004750037555A /* KYITabBarArrow.png in Resources */,
 				EBB1D8F7198A594800CDD6E5 /* Default@2x.png in Resources */,
+				EBF37023199004750037555A /* KYITabBarArrow@2x.png in Resources */,
+				EBF37029199004750037555A /* KYTabBarItem02@2x.png in Resources */,
 				EBFF1190198C4F9500E91DBE /* sound1.caf in Resources */,
+				EBF3702B199004750037555A /* KYTabBarItem03@2x.png in Resources */,
 				EBFF1193198C4F9500E91DBE /* track2.caf in Resources */,
+				EBF37026199004750037555A /* KYTabBarItem01.png in Resources */,
 				EBFF1191198C4F9500E91DBE /* sound2.caf in Resources */,
+				EBF37024199004750037555A /* KYITabBarBackground.png in Resources */,
 				EBB1D8F9198A594800CDD6E5 /* Default-568h@2x.png in Resources */,
+				EBF37020199004750037555A /* KYIArcTabGestureHelp.png in Resources */,
 				EB1F2C61198B0EA700929EDD /* GardenStoryboard.storyboard in Resources */,
 				EB1F2C75198B1F4F00929EDD /* launch_default.png in Resources */,
 				EBFF1192198C4F9500E91DBE /* track1.caf in Resources */,
+				EBF37027199004750037555A /* KYTabBarItem01@2x.png in Resources */,
 				EB1F2C76198B1F4F00929EDD /* launch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,8 +460,11 @@
 				EBB1D8EF198A594800CDD6E5 /* main.m in Sources */,
 				EBB1D8F3198A594800CDD6E5 /* AppDelegate.m in Sources */,
 				EB1F2C5F198B0E3700929EDD /* LauchViewController.m in Sources */,
+				EBF37036199004D10037555A /* KYArcTabViewController.m in Sources */,
+				EBF3703B199007F70037555A /* Constants.m in Sources */,
 				EB1F2C70198B1C8A00929EDD /* HelperUtils.mm in Sources */,
 				EB1F2C7A198B217200929EDD /* MainViewController.m in Sources */,
+				EBF37035199004D10037555A /* KYArcTab.m in Sources */,
 				EB26250C198BA02100DF230F /* SoundManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

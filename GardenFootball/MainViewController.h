@@ -1,13 +1,13 @@
 //
 //  MainViewController.h
-//  GardenFootball
+//  KYArcTabDemo
 //
-//  Created by Pham Hoang on 8/1/14.
-//  Copyright (c) 2014 Pham Hoang. All rights reserved.
+//  Created by Pham Hoang on 8/5/14.
+//  Copyright (c) 2014 Kjuly. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KYArcTabViewController.h"
 
-@interface MainViewController : UIViewController
+@interface MainViewController : KYArcTabViewController
 
 @end
