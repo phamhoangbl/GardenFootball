@@ -85,6 +85,43 @@
             </objects>
             <point key="canvasLocation" x="329" y="-229"/>
         </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="leh-dP-AHO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i6Z-FU-otL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="SettingsControllerId" id="jJD-fR-1oh" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HbM-AL-FaH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bhr-hk-1Bz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3UN-iz-1PR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7gM-lM-5Rp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="This is settings controller" translatesAutoresizingMaskIntoConstraints="NO" id="W8b-mT-CdC">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleTextView" destination="W8b-mT-CdC" id="1EB-h4-3RG"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="711" y="-521"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -14,6 +14,7 @@
 		EB1F2C76198B1F4F00929EDD /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1F2C74198B1F4F00929EDD /* launch.png */; };
 		EB1F2C7A198B217200929EDD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1F2C79198B217200929EDD /* MainViewController.m */; };
 		EB26250C198BA02100DF230F /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB26250B198BA02100DF230F /* SoundManager.m */; };
+		EB7A1B991990538900A98D9C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7A1B981990538900A98D9C /* SettingsViewController.m */; };
 		EBB1D8E3198A594800CDD6E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1D8E2198A594800CDD6E5 /* UIKit.framework */; };
 		EBB1D8E5198A594800CDD6E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1D8E4198A594800CDD6E5 /* Foundation.framework */; };
 		EBB1D8E7198A594800CDD6E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1D8E6198A594800CDD6E5 /* CoreGraphics.framework */; };
@@ -45,13 +46,13 @@
 		EBF37035199004D10037555A /* KYArcTab.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF37032199004D10037555A /* KYArcTab.m */; };
 		EBF37036199004D10037555A /* KYArcTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF37034199004D10037555A /* KYArcTabViewController.m */; };
 		EBF37038199005B20037555A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF37037199005B20037555A /* QuartzCore.framework */; };
-		EBF3703B199007F70037555A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3703A199007F70037555A /* Constants.m */; };
+		EBFDF83C19905CE100CF8E0B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFDF83B19905CE100CF8E0B /* Constants.m */; };
+		EBFDF84219905D7600CF8E0B /* ball-bounce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBFDF83D19905D7600CF8E0B /* ball-bounce.mp3 */; };
+		EBFDF84319905D7600CF8E0B /* sound1.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFDF83E19905D7600CF8E0B /* sound1.caf */; };
+		EBFDF84419905D7600CF8E0B /* sound2.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFDF83F19905D7600CF8E0B /* sound2.caf */; };
+		EBFDF84519905D7600CF8E0B /* track1.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFDF84019905D7600CF8E0B /* track1.caf */; };
+		EBFDF84619905D7600CF8E0B /* track2.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFDF84119905D7600CF8E0B /* track2.caf */; };
 		EBFF1188198C4EA800E91DBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFF1187198C4EA800E91DBE /* AVFoundation.framework */; };
-		EBFF118F198C4F9500E91DBE /* ball-bounce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118A198C4F9500E91DBE /* ball-bounce.mp3 */; };
-		EBFF1190198C4F9500E91DBE /* sound1.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118B198C4F9500E91DBE /* sound1.caf */; };
-		EBFF1191198C4F9500E91DBE /* sound2.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118C198C4F9500E91DBE /* sound2.caf */; };
-		EBFF1192198C4F9500E91DBE /* track1.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118D198C4F9500E91DBE /* track1.caf */; };
-		EBFF1193198C4F9500E91DBE /* track2.caf in Resources */ = {isa = PBXBuildFile; fileRef = EBFF118E198C4F9500E91DBE /* track2.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		EB1F2C79198B217200929EDD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		EB26250A198BA02100DF230F /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		EB26250B198BA02100DF230F /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		EB7A1B971990538900A98D9C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		EB7A1B981990538900A98D9C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		EBB1D8DF198A594800CDD6E5 /* GardenFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB1D8E2198A594800CDD6E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EBB1D8E4198A594800CDD6E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,14 +117,14 @@
 		EBF37033199004D10037555A /* KYArcTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYArcTabViewController.h; sourceTree = "<group>"; };
 		EBF37034199004D10037555A /* KYArcTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYArcTabViewController.m; sourceTree = "<group>"; };
 		EBF37037199005B20037555A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		EBF37039199007F70037555A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../../../../../../../../Users/phamhoang/Desktop/Constants.h; sourceTree = "<group>"; };
-		EBF3703A199007F70037555A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = ../../../../../../../../Users/phamhoang/Desktop/Constants.m; sourceTree = "<group>"; };
+		EBFDF83A19905CE100CF8E0B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EBFDF83B19905CE100CF8E0B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		EBFDF83D19905D7600CF8E0B /* ball-bounce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ball-bounce.mp3"; sourceTree = "<group>"; };
+		EBFDF83E19905D7600CF8E0B /* sound1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.caf; sourceTree = "<group>"; };
+		EBFDF83F19905D7600CF8E0B /* sound2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound2.caf; sourceTree = "<group>"; };
+		EBFDF84019905D7600CF8E0B /* track1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = track1.caf; sourceTree = "<group>"; };
+		EBFDF84119905D7600CF8E0B /* track2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = track2.caf; sourceTree = "<group>"; };
 		EBFF1187198C4EA800E91DBE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		EBFF118A198C4F9500E91DBE /* ball-bounce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ball-bounce.mp3"; path = "../../../../../../../../Users/phamhoang/Desktop/ball-bounce.mp3"; sourceTree = "<group>"; };
-		EBFF118B198C4F9500E91DBE /* sound1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound1.caf; path = ../../../../../../../../Users/phamhoang/Desktop/sound1.caf; sourceTree = "<group>"; };
-		EBFF118C198C4F9500E91DBE /* sound2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound2.caf; path = ../../../../../../../../Users/phamhoang/Desktop/sound2.caf; sourceTree = "<group>"; };
-		EBFF118D198C4F9500E91DBE /* track1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = track1.caf; path = ../../../../../../../../Users/phamhoang/Desktop/track1.caf; sourceTree = "<group>"; };
-		EBFF118E198C4F9500E91DBE /* track2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = track2.caf; path = ../../../../../../../../Users/phamhoang/Desktop/track2.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,7 @@
 		EB1F2C59198B0DB800929EDD /* UIScreen */ = {
 			isa = PBXGroup;
 			children = (
+				EB7A1B961990536E00A98D9C /* SettingsScreen */,
 				EB1F2C77198B215300929EDD /* MainScreen */,
 				EB1F2C5A198B0DCC00929EDD /* LauchScreen */,
 			);
@@ -171,8 +175,8 @@
 		EB1F2C69198B1B6300929EDD /* CommonUtils */ = {
 			isa = PBXGroup;
 			children = (
-				EBF37039199007F70037555A /* Constants.h */,
-				EBF3703A199007F70037555A /* Constants.m */,
+				EBFDF83A19905CE100CF8E0B /* Constants.h */,
+				EBFDF83B19905CE100CF8E0B /* Constants.m */,
 				EB1F2C6E198B1C8A00929EDD /* HelperUtils.h */,
 				EB1F2C6F198B1C8A00929EDD /* HelperUtils.mm */,
 				EB26250A198BA02100DF230F /* SoundManager.h */,
@@ -198,6 +202,15 @@
 				EB1F2C74198B1F4F00929EDD /* launch.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		EB7A1B961990536E00A98D9C /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EB7A1B971990538900A98D9C /* SettingsViewController.h */,
+				EB7A1B981990538900A98D9C /* SettingsViewController.m */,
+			);
+			name = SettingsScreen;
 			sourceTree = "<group>";
 		};
 		EBB1D8D6198A594800CDD6E5 = {
@@ -316,11 +329,11 @@
 		EBFF1189198C4F6900E91DBE /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				EBFF118A198C4F9500E91DBE /* ball-bounce.mp3 */,
-				EBFF118B198C4F9500E91DBE /* sound1.caf */,
-				EBFF118C198C4F9500E91DBE /* sound2.caf */,
-				EBFF118D198C4F9500E91DBE /* track1.caf */,
-				EBFF118E198C4F9500E91DBE /* track2.caf */,
+				EBFDF83D19905D7600CF8E0B /* ball-bounce.mp3 */,
+				EBFDF83E19905D7600CF8E0B /* sound1.caf */,
+				EBFDF83F19905D7600CF8E0B /* sound2.caf */,
+				EBFDF84019905D7600CF8E0B /* track1.caf */,
+				EBFDF84119905D7600CF8E0B /* track2.caf */,
 			);
 			name = Sound;
 			sourceTree = "<group>";
@@ -404,23 +417,23 @@
 				EBF3702A199004750037555A /* KYTabBarItem03.png in Resources */,
 				EBF3702D199004750037555A /* KYTabBarItem04@2x.png in Resources */,
 				EBF37025199004750037555A /* KYITabBarBackground@2x.png in Resources */,
-				EBFF118F198C4F9500E91DBE /* ball-bounce.mp3 in Resources */,
 				EBB1D8F5198A594800CDD6E5 /* Default.png in Resources */,
 				EBF37022199004750037555A /* KYITabBarArrow.png in Resources */,
 				EBB1D8F7198A594800CDD6E5 /* Default@2x.png in Resources */,
 				EBF37023199004750037555A /* KYITabBarArrow@2x.png in Resources */,
 				EBF37029199004750037555A /* KYTabBarItem02@2x.png in Resources */,
-				EBFF1190198C4F9500E91DBE /* sound1.caf in Resources */,
 				EBF3702B199004750037555A /* KYTabBarItem03@2x.png in Resources */,
-				EBFF1193198C4F9500E91DBE /* track2.caf in Resources */,
+				EBFDF84319905D7600CF8E0B /* sound1.caf in Resources */,
+				EBFDF84219905D7600CF8E0B /* ball-bounce.mp3 in Resources */,
 				EBF37026199004750037555A /* KYTabBarItem01.png in Resources */,
-				EBFF1191198C4F9500E91DBE /* sound2.caf in Resources */,
 				EBF37024199004750037555A /* KYITabBarBackground.png in Resources */,
+				EBFDF84619905D7600CF8E0B /* track2.caf in Resources */,
+				EBFDF84519905D7600CF8E0B /* track1.caf in Resources */,
 				EBB1D8F9198A594800CDD6E5 /* Default-568h@2x.png in Resources */,
 				EBF37020199004750037555A /* KYIArcTabGestureHelp.png in Resources */,
 				EB1F2C61198B0EA700929EDD /* GardenStoryboard.storyboard in Resources */,
 				EB1F2C75198B1F4F00929EDD /* launch_default.png in Resources */,
-				EBFF1192198C4F9500E91DBE /* track1.caf in Resources */,
+				EBFDF84419905D7600CF8E0B /* sound2.caf in Resources */,
 				EBF37027199004750037555A /* KYTabBarItem01@2x.png in Resources */,
 				EB1F2C76198B1F4F00929EDD /* launch.png in Resources */,
 			);
@@ -461,9 +474,10 @@
 				EBB1D8F3198A594800CDD6E5 /* AppDelegate.m in Sources */,
 				EB1F2C5F198B0E3700929EDD /* LauchViewController.m in Sources */,
 				EBF37036199004D10037555A /* KYArcTabViewController.m in Sources */,
-				EBF3703B199007F70037555A /* Constants.m in Sources */,
 				EB1F2C70198B1C8A00929EDD /* HelperUtils.mm in Sources */,
+				EBFDF83C19905CE100CF8E0B /* Constants.m in Sources */,
 				EB1F2C7A198B217200929EDD /* MainViewController.m in Sources */,
+				EB7A1B991990538900A98D9C /* SettingsViewController.m in Sources */,
 				EBF37035199004D10037555A /* KYArcTab.m in Sources */,
 				EB26250C198BA02100DF230F /* SoundManager.m in Sources */,
 			);

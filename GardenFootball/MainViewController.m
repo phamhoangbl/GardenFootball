@@ -1,18 +1,21 @@
 
 #import "MainViewController.h"
+#import "SettingsViewController.h"
 
 @interface MainViewController () {
 @private
     UIViewController * viewControllerOne_,
     * viewControllerTwo_,
     * viewControllerThree_,
-    * viewControllerFour;
+    * viewControllerFour,
+    * viewControllerFive;
 }
 
 @property (nonatomic, retain) UIViewController * viewControllerOne,
 * viewControllerTwo,
 * viewControllerThree,
-* viewControllerFour;
+* viewControllerFour,
+* viewControllerFive;
 
 @end
 
@@ -22,8 +25,8 @@
 @synthesize viewControllerOne   = viewControllerOne_,
 viewControllerTwo   = viewControllerTwo_,
 viewControllerThree = viewControllerThree_,
-viewControllerFour  = viewControllerFour_;
-
+viewControllerFour  = viewControllerFour_,
+viewControllerFive  = viewControllerFive_;
 
 - (void)didReceiveMemoryWarning
 {
@@ -43,6 +46,8 @@ viewControllerFour  = viewControllerFour_;
     viewControllerTwo_   = [[UIViewController alloc] init];
     viewControllerThree_ = [[UIViewController alloc] init];
     viewControllerFour_  = [[UIViewController alloc] init];
+    //viewControllerFive_  = [[SettingsViewController alloc] init];
+    viewControllerFive_ = [self.storyboard instantiateViewControllerWithIdentifier:@"SettingsControllerId"];
     
     // Set child views' Frame
     CGRect childViewFrame = self.viewFrame;
@@ -56,6 +61,7 @@ viewControllerFour  = viewControllerFour_;
     [viewControllerTwo_.view   setBackgroundColor:[UIColor redColor]];
     [viewControllerThree_.view setBackgroundColor:[UIColor greenColor]];
     [viewControllerFour_.view  setBackgroundColor:[UIColor blueColor]];
+    [viewControllerFive_.view  setBackgroundColor:[UIColor darkGrayColor]];
     
     // Add child views as tab bar items
     self.tabBarItems = @[@{@"image"          : [NSString stringWithFormat:kKYITabBarItemImageNameFormat, 1],
@@ -65,7 +71,9 @@ viewControllerFour  = viewControllerFour_;
                          @{@"image"          : [NSString stringWithFormat:kKYITabBarItemImageNameFormat, 3],
                            @"viewController" : viewControllerThree_},
                          @{@"image"          : [NSString stringWithFormat:kKYITabBarItemImageNameFormat, 4],
-                           @"viewController" : viewControllerFour_}];
+                           @"viewController" : viewControllerFour_},
+                         @{@"image"          : [NSString stringWithFormat:kKYITabBarItemImageNameFormat, 5],
+                           @"viewController" : viewControllerFive_}];
     
     // Add a gesture signal on the first view
     UIImage * gestureImage = [UIImage imageNamed:kKYIArcTabGestureHelp];
